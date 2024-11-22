@@ -10,4 +10,5 @@ Content-Type: application/json
 }
 
 ### Remove shopping item
-DELETE http://localhost:8080/shopping-items/39a8a1a2-602e-4ffa-a1ba-6a2cecfe6074
+### Replace {id} with uuid 
+DELETE http://localhost:8080/shopping-items/{id}
